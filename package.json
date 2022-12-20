@@ -1,0 +1,13 @@
+{
+  "name": "galleria",
+  "version": "0.3.1",
+  "description": "Sankaku Complex (Idol) Gallery UserScript",
+  "main": "index.js",
+  "type": "module",
+  "author": "@agony-central",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1"
+  }
+}
