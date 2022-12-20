@@ -6,15 +6,24 @@ I have— so here's a UserScript library you can run with Tampermonkey/Greasemon
 
 ## Install
 
-1. Install a UserScript manager
-   - as of 2022, I recommend [Tampermonkey](https://www.tampermonkey.net/)
-2. Install Galleria
-   - simply open [`index.js`'s RAW file][install-file] in a new window
-   - if your UserScript manager doesn't auto-prompt you to install Galleria, its either improperly installed or doesn't allow automatic installs
-   - in either case, please consult your UserScript manager's documentation to learn how to manually install a UserScript, usually, it involes:
-     1. making a new UserScript
-     2. copy/pasting the contents of [`index.js`'s RAW file][install-file] (making sure to replace any auto-generated content)
-     3. saving the UserScript, letting it load into the UserScript manager and run on subsequent visits to `idol.sankakucomplex.com`
+0. Ensure you have a UserScript manager for your browser, such as:
+    - [Tampermonkey](https://www.tampermonkey.net/)
+    - [Violentmonkey](https://violentmonkey.github.io/)
+    - [Greasemonkey](https://www.greasespot.net/)
+    - [GreaseKit](https://8-p.info/greasekit/) (Safari)
+1. Visit the [GreasyFork mirror of Galleria](https://greasyfork.org/en/scripts/456883-galleria)
+2. Click the green button to install
+3. Confirm you wish to install Galleria in your UserScript manager
+
+## Usage
+
+0. Visit `idol.sankakucomplex.com`
+    - Optionally, perform a search to customize the posts the gallery will see
+1. Press `F` or `G` — or click the `Toggle Gallery` button at the bottom
+2. Navigate using `W`/`A`/`Up`/`Left` to go the previous, and `S`/`D`/`Down`/`Right` to go to the next posts
+3. Press `Esc`, `F`, or `G` to leave or toggle the gallery view
+
+NOTE: the UserScript will generally only try to auto-scroll the view (to load more posts) only when the gallery is upon, but switching to a recently loaded post and immediately closing the gallery may cause the post fetching sub-routine to run a couple times still.
 
 ## Why? (Challenges)
 
@@ -36,8 +45,8 @@ The gallery is designed with minimal intrusion of the original site's functions 
 
 - the program will auto-load new posts when it begins to run out
 - common keybinds for easy navigation:
-  1.  arrow keys
-  2.  WASD
+    1.  arrow keys
+    2.  WASD
 
 ## Caveats (Improvements)
 
