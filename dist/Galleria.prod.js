@@ -2,8 +2,8 @@
 // @name         Galleria
 // @version      0.3.1
 // @description  Sankaku Complex (Idol) Gallery Overlay
-// @updateURL	 https://github.com/agony-central/Galleria/raw/main/Galleria.prod.js
-// @downloadURL  https://github.com/agony-central/Galleria/raw/main/Galleria.prod.js
+// @updateURL	 https://raw.githubusercontent.com/agony-central/Galleria/main/dist/Galleria.prod.js
+// @downloadURL  https://raw.githubusercontent.com/agony-central/Galleria/main/dist/Galleria.prod.js
 // @homepage     https://github.com/agony-central/Galleria
 // @supportURL   https://github.com/agony-central/Galleria/issues
 // @author       agony_central
