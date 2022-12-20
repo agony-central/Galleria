@@ -1,6 +1,6 @@
 # Galleria
 
-Ever been bothered by Sankaku Complex's 3DPD image board, `idol.sankakucomplex.com`, is not only an awful and sucky way to masturbate — but also unsupported by most, third-party, image board-related software?
+Ever been bothered by how Sankaku Complex's 3DPD image board, `idol.sankakucomplex.com`, is not only an awful and sucky way to masturbate — but also unsupported by most, third-party, image board-related software?
 
 I have— so here's a UserScript library you can run with Tampermonkey/Greasemonkey to overlay a useful (but kinda' ugly) image gallery. We are at the first version of Galleria, where it works yet isn't in its most convenient state.
 
