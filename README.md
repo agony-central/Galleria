@@ -14,9 +14,12 @@ I have— so here's a UserScript library you can run with Tampermonkey/Greasemon
 
     - simply open [`index.js`'s RAW file](https://raw.githubusercontent.com/agony-central/galleria/master/index.js) in a new window
 
-    - if your UserScript manager doesn't auto-prompt you to install Galleria, it may not be properly installed — please make sure it is enabled and visible in your browser's extensions list
+    - if your UserScript manager doesn't auto-prompt you to install Galleria, its either improperly installed or doesn't allow automatic installs
 
-    - alternatively, your UserScript manager may have auto-install disabled, and it may need to have this UserScript installed explicitly — please consult your UserScript manager's documentation if you believe that to be the case
+    - in either case, please consult your UserScript manager's documentation to learn how to manually install a UserScript, usually, it involes:
+        1. making a new UserScript
+        2. copy/pasting the contents of [`index.js`'s RAW file](https://raw.githubusercontent.com/agony-central/galleria/master/index.js) (making sure to replace any auto-generated content)
+        3. saving the UserScript, letting it load into the UserScript manager and run on subsequent visits to `idol.sankakucomplex.com`
 
 ## Why? (Challenges)
 
@@ -55,6 +58,7 @@ This is the most incomplete, MVP version of the gallery as it is missing many qu
     2. rate limits
     3. lookahead posts count
     4. theming (light/dark/custom accents)
+-   auto-updates for future features
 -   finally, there can also be DevOps and architectural changes to help build and maintain this project better
     1. module-based build system
        a. Rollup.js
