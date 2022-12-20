@@ -1,3 +1,10 @@
+> ⚠ NSFW ⚠
+>
+> Not Safe For Work!
+> The contents of this UserScript contain features and additions for an adult and explicitly pornographic website. Please be advised.
+
+<br />
+
 # Galleria
 
 Ever been bothered by how Sankaku Complex's 3DPD image board, `idol.sankakucomplex.com`, is not only an awful and sucky way to masturbate — but also unsupported by most, third-party, image board-related software?
