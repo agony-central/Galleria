@@ -32,17 +32,6 @@
 
     const COMMON_CLASSNAME_POST = 'thumb';
 
-    /**
-     * TODO
-     *
-     * For the next iteration, we are going to need a WASM module.
-     * This module will be responsible for:
-     *  - discovering hidden session cookies
-     *  - making an HTTP request with the cookie and current URL as referer
-     *  - discover and return media
-     *
-     */
-
     const { $ } = window;
     const { React } = window;
     const { ReactDOM } = window;
