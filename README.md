@@ -12,13 +12,13 @@ I have— so here's a UserScript library you can run with Tampermonkey/Greasemon
 
 2. Install Galleria
 
-    - simply open [`index.js`'s RAW file](install-file) in a new window
+    - simply open [`index.js`'s RAW file][install-file] in a new window
 
     - if your UserScript manager doesn't auto-prompt you to install Galleria, its either improperly installed or doesn't allow automatic installs
 
     - in either case, please consult your UserScript manager's documentation to learn how to manually install a UserScript, usually, it involes:
         1. making a new UserScript
-        2. copy/pasting the contents of [`index.js`'s RAW file](install-file) (making sure to replace any auto-generated content)
+        2. copy/pasting the contents of [`index.js`'s RAW file][install-file] (making sure to replace any auto-generated content)
         3. saving the UserScript, letting it load into the UserScript manager and run on subsequent visits to `idol.sankakucomplex.com`
 
 ## Why? (Challenges)
